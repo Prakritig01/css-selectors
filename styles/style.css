@@ -1,0 +1,222 @@
+      /* h1 {
+        color: rgb(47, 0, 255);
+      } */
+
+      /* apply to the first div element of every parent */
+      /* * div:first-of-type{
+        background-color: aqua;
+      } */
+
+
+      /* apply to the first div and immediate child element of body */
+      /* * > div:first-of-type{
+        background-color: rgb(178, 233, 214);
+      } */
+
+      /* Apply to all the divs which are inside the body. This is applied to nested blocks too. */
+      /* div{
+        background-color: bisque;
+      } */
+
+      /* apply to element which is the first of Type*/
+      /* *:first-of-type{
+        background-color: rgb(133, 157, 158);
+      } */
+
+      /* apply to all the div element which is first of its kind inside section*/
+      /* section div:first-of-type{
+        background-color: rgb(133, 157, 158);
+      } */
+
+      /* apply to para which is the child of either div or span */
+      /* div p,span p{
+        background-color: rgb(133, 157, 158);
+      } */
+
+
+      /* apply to first para which is the child of either div or span */
+      /* div p:first-of-type, span p:first-of-type{
+       background-color:  rgb(133, 157, 158);
+      } */
+
+      
+      /* apply to p child element which is immediate child of the body */
+    /* body>p{
+        background-color: rgb(133, 157, 158);
+    } */
+
+
+      /* apply to p element which is the first child*/
+      /* p:first-child{
+        background-color: rgb(133, 157, 158);
+      } */
+      
+
+      /* apply to the first div element of every parent */
+      /* div:first-of-type{
+        background-color: rgb(133, 157, 158);
+      } */
+      
+
+      /* apply to the first div and immediate child element of body */
+      /* body > div:first-of-type {
+        background-color: lightblue;
+      } */
+
+      /* Apply to all the divs which are first of kind and inside the body. This is applied to nested blocks too. */
+
+      /* body div:first-of-type {
+        background-color: lightblue;
+      } */
+
+
+      /* ------doubt---------------------------------------------- */
+      /* apply to element which is the first of Type
+      body:first-of-type{
+        background-color: rgb(133, 157, 158);
+      } */
+
+
+      /* apply to all the div element which is first of its kind inside section*/
+      /* section div:first-of-type{
+        background-color: rgb(133, 157, 158);
+      } */
+      
+
+      /* apply to para which is the child of either div or span */
+      /* div p,span p{
+        background-color: rgb(133, 157, 158);
+      } */
+
+      /* apply to first para which is the child of either div or span */
+      /* div p:first-of-type,span p:first-of-type{
+        background-color: rgb(133, 157, 158);
+      } */
+
+      /* apply to p child element which is immediate child of the body */
+      /* body>p{
+        background-color: rgb(133, 157, 158);
+      } */
+
+      /* apply to p element which is the first child*/
+      /* p:first-child{
+        background-color: rgb(133, 157, 158);
+      } */
+
+      /* Select elements which have class intro-css */
+      /* .intro-css{
+        background-color: rgb(133, 157, 158);
+      } */
+
+      /* Select elements which have class intro-css and section-1 */
+      /* .intro-css.section-1{
+        background-color: rgb(133, 157, 158);
+      } */
+
+      /* Select all h2 inside section */
+      /* section h2{
+        background-color: rgb(133, 157, 158);
+      } */
+
+      /* Select all h2 inside section with id intro-css-section-id */
+      /* #intro-css-section-id h2{
+        background-color: rgb(133, 157, 158);
+      } */
+
+      /* Select the element which has id intro-css-section-id */
+      /* #intro-css-section-id{
+        background-color: rgb(133, 157, 158);
+      } */
+
+      /* ---------------------------------doubt--------------------- */
+      /* Select all div inside section with id intro-css-section-id */
+      /* #intro-css-section-id div{
+        background-color: rgb(133, 157, 158);
+      } */
+
+
+      /* Select first div inside section with id intro-css-section-id */
+      /* #intro-css-section-id div:first-of-type{
+        background-color: rgb(133, 157, 158);
+      } */
+
+
+      /* Select all the p inside section with id intro-css-section-id */
+      /* #intro-css-section-id p{
+        background-color: rgb(133, 157, 158);
+      } */
+
+
+      /* Select the p which is first-of-type inside section with id intro-css-section-id */
+      /* #intro-css-section-id p:first-of-type{
+        background-color: rgb(133, 157, 158);
+      } */
+
+
+      /* Select the p which is first-child inside section with id intro-css-section-id */
+      /* #intro-css-section-id p:first-child{
+        background-color: rgb(133, 157, 158);
+      } */
+
+
+      /* Select the p which is last-child inside section with id intro-css-section-id */
+      /* #intro-css-section-id p:last-child{
+        background-color: rgb(133, 157, 158);
+      } */
+
+      /* Select elements which have class intro-css */
+
+      /* .intro-css {
+        background-color: lightblue;
+      } */
+
+      /* Select elements which have class intro-css and section-1 */
+      /* .intro-css.section-1 {
+        background-color: lightblue;
+      } */
+
+      /* Select all h2 inside section */
+      /* section h2 {
+        background-color: lightblue;
+      } */
+
+      /* Select all h2 inside section with id intro-css-section-id */
+      /* #intro-css-section-id h2 {
+        background-color: lightblue;
+      } */
+
+      /* Select the element which has id intro-css-section-id */
+      /* #intro-css-section-id {
+        background-color: lightblue;
+      } */
+
+      /* Select all div inside section with id intro-css-section-id */
+      /* #intro-css-section-id div {
+        background-color: lightblue;
+      } */
+
+      /* Select first div inside section with id intro-css-section-id */
+      /* #intro-css-section-id div:first-of-type {
+        background-color: lightblue;
+      } */
+
+      /* Select all the p inside section with id intro-css-section-id */
+      /* #intro-css-section-id p {
+        background-color: lightblue;
+      } */
+
+      /* Select the p which is first-of-type inside section with id intro-css-section-id */
+      /* #intro-css-section-id p:first-of-type {
+        background-color: lightblue;
+      } */
+
+      /* Select the p which is first-child inside section with id intro-css-section-id */
+      /* #intro-css-section-id p:first-child {
+        background-color: lightblue;
+      } */
+
+      /* Select the p which is last-child inside section with id intro-css-section-id */
+      /* #intro-css-section-id p:last-child {
+        background-color: lightblue;
+      } */
+
